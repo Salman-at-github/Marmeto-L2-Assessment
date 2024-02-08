@@ -2,6 +2,8 @@ console.log("====================================");
 console.log("Connected");
 console.log("====================================");
 document.addEventListener("DOMContentLoaded", function () {
+
+//   Since image URL in API is invalid, I have added static images
   const staticImages = [
     "./assets/product/dress1.webp",
     "./assets/product/dress2.webp",
